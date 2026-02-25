@@ -108,7 +108,7 @@ export const formatDate = (str) => {
       new Date().getFullYear()
     ]
 
-    const email = 'tutosneotecs86@gmail.com'
+    const email = 'tutosneotecs@gmail.com'
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: { user: email, pass: process.env.GMAIL_PASS }
