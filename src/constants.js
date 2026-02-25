@@ -7,5 +7,8 @@ export const PLACEHOLDERS = {
   SECOND_COUNTRY: '%{{second_country}}',
   THIRD_COUNTRY: '%{{third_country}}',
   FRECUENT_OS: '%{{os}}',
+  CITY: '%{{city}}',
+  COUNTRY: '%{{country}}',
+  CREATED_AT: '%{{created_at}}',
   YEAR: '%{{year}}'
 }

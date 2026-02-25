@@ -23,11 +23,23 @@ const replaceAllPlaceholders = (template, placeholders, updatedContent) => {
   return result
 }
 
+const formatDate = (str) => {
+  return new Date(str).toLocaleDateString('es-AR', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  })
+}
+
 (async () => {
   try {
     const data = await getData()
 
     const visitorsCount = data[0]?.visits_count ?? 0
+    const lastVisit = data[0] ?? {}
     const allCities = data.map((d) => d.city_name).filter(Boolean)
     const allCountries = data.map((d) => d.country_name).filter(Boolean)
     const allOs = data.map((d) => d.so).filter(Boolean)
@@ -74,6 +86,9 @@ const replaceAllPlaceholders = (template, placeholders, updatedContent) => {
       thirdFrequentCity,
       thirdFrequentCountry,
       mostFrequentOs,
+      lastVisit.city_name,
+      lastVisit.country_name,
+      formatDate(lastVisit.created_at),
       new Date().getFullYear()
     ]
 
