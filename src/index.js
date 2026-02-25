@@ -108,7 +108,7 @@ export const formatDate = (str) => {
       new Date().getFullYear()
     ]
 
-    const email = 'calcagni.gabriel86@gmail.com'
+    const email = 'tutosneotecs86@gmail.com'
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: { user: email, pass: process.env.GMAIL_PASS }
@@ -118,7 +118,7 @@ export const formatDate = (str) => {
 
     await transporter.sendMail({
       from: email,
-      to: 'tutosneotecs@gmail.com',
+      to: 'calcagni.gabriel86@gmail.com',
       subject: 'Visitas del portafolio 💼 • ' + new Date().getFullYear(),
       html: EmailTemplate({ visitors: visitorsCount, cities: cityResult, countries: countryResult, lastVisitTemp })
     })
