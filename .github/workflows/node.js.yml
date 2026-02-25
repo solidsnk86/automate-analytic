@@ -26,6 +26,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        env:
+          BACK_URL: https://calcagni-gabriel-dev.vercel.app/api/supabase/get-all-visits
+          GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
 
       - name: Update README.md and send email
         run: npm run send-data
