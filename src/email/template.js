@@ -226,9 +226,9 @@ export const EmailTemplate = ({ visitors, cities, countries, lastVisitTemp }) =>
 
       <!-- Total visitors -->
       <div class="visitors-hero">
-        <div style="text-align: center;">
-          <p class="visitors-label">Visitantes totales</p>
-          <p class="visitors-number">${visitors}</p>
+      <div style="text-align: center; width: 100%;">
+        <p class="visitors-label">Visitantes totales</p>
+        <p class="visitors-number">${visitors}</p>
         </div>
       </div>
 
