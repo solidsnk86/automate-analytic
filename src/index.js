@@ -1,0 +1,99 @@
+import { promises as fs } from 'node:fs'
+import path from 'node:path'
+import { PLACEHOLDERS } from './constants.js'
+import fetch from 'node-fetch'
+import nodemailer from 'nodemailer'
+import { EmailTemplate } from './email/template.js'
+
+process.loadEnvFile('.env')
+
+const getData = async () => {
+  const res = await fetch(process.env.BACK_URL)
+  const data = await res.json()
+  return data.allViews
+}
+
+const objectPlaceholders = Object.keys(PLACEHOLDERS).map((key) => PLACEHOLDERS[key])
+
+const replaceAllPlaceholders = (template, placeholders, updatedContent) => {
+  let result = template
+  for (let i = 0; i < placeholders.length; i += 1) {
+    result = result.replaceAll(placeholders[i], updatedContent[i])
+  }
+  return result
+}
+
+(async () => {
+  try {
+    const data = await getData()
+
+    const visitorsCount = data[0]?.visits_count ?? 0
+    const allCities = data.map((d) => d.city_name).filter(Boolean)
+    const allCountries = data.map((d) => d.country_name).filter(Boolean)
+    const allOs = data.map((d) => d.so).filter(Boolean)
+
+    const countBy = (arr) =>
+      arr.reduce((acc, item) => {
+        const key = String(item).trim()
+        if (!key) return acc
+        acc[key] = (acc[key] || 0) + 1
+        return acc
+      }, {})
+
+    const cityCounts = countBy(allCities)
+    const countryCounts = countBy(allCountries)
+    const osCounts = countBy(allOs)
+
+    const toSortedArray = (counts) =>
+      Object.entries(counts)
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => b.count - a.count)
+
+    const cityResult = toSortedArray(cityCounts)
+    const countryResult = toSortedArray(countryCounts)
+    const osResult = toSortedArray(osCounts)
+
+    const [templateMD] = await Promise.all([
+      fs.readFile(path.join(process.cwd(), 'src', 'README.md.tpl'), { encoding: 'utf-8' })
+    ])
+
+    const mostFrequentCity = cityResult[0]?.name ?? 'N/A'
+    const mostFrequentCountry = countryResult[0]?.name ?? 'N/A'
+    const mostFrequentOs = osResult[0]?.name ?? 'N/A'
+    const secondFrequentCity = cityResult[1]?.name ?? 'N/A'
+    const secondFrequentCountry = countryResult[1]?.name ?? 'N/A'
+    const thirdFrequentCity = cityResult[2].name ?? 'N/A'
+    const thirdFrequentCountry = countryResult[2].name ?? 'N/A'
+
+    const contentArray = [
+      visitorsCount,
+      mostFrequentCity,
+      mostFrequentCountry,
+      secondFrequentCity,
+      secondFrequentCountry,
+      thirdFrequentCity,
+      thirdFrequentCountry,
+      mostFrequentOs,
+      new Date().getFullYear()
+    ]
+
+    const replacedItems = replaceAllPlaceholders(templateMD, objectPlaceholders, contentArray)
+
+    const email = 'calcagni.gabriel86@gmail.com'
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: { user: email, pass: process.env.GMAIL_PASS }
+    })
+
+    await transporter.sendMail({
+      from: email,
+      to: 'tutosneotecs@gmail.com',
+      html: EmailTemplate({ visitors: visitorsCount, cities: cityResult, countries: countryResult })
+    })
+
+    await fs.writeFile('README.md', replacedItems, { encoding: 'utf-8' })
+    console.log('💾 Datos actualizados, email enviado.')
+  } catch (error) {
+    console.error(error)
+  }
+})()
