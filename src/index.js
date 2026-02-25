@@ -68,22 +68,39 @@ export const formatDate = (str) => {
     ])
 
     const mostFrequentCity = cityResult[0]?.name ?? 'N/A'
-    const mostFrequentCountry = countryResult[0]?.name ?? 'N/A'
-    const mostFrequentOs = osResult[0]?.name ?? 'N/A'
+    const mostFrequentCityCount = cityResult[0]?.count ?? 0
     const secondFrequentCity = cityResult[1]?.name ?? 'N/A'
+    const secondCityCount = cityResult[1]?.count ?? 0
+    const thirdFrequentCity = cityResult[2]?.name ?? 'N/A'
+    const thirdCityCount = cityResult[2]?.count ?? 0
+
+    const mostFrequentCountry = countryResult[0]?.name ?? 'N/A'
+    const mostFrequentCountryCount = countryResult[0]?.count ?? 0
     const secondFrequentCountry = countryResult[1]?.name ?? 'N/A'
-    const thirdFrequentCity = cityResult[2].name ?? 'N/A'
-    const thirdFrequentCountry = countryResult[2].name ?? 'N/A'
+    const secondCountryCount = countryResult[1]?.count ?? 0
+    const thirdFrequentCountry = countryResult[2]?.name ?? 'N/A'
+    const thirdCountryCount = countryResult[2]?.count ?? 0
+
+    const mostFrequentOs = osResult[0]?.name ?? 'N/A'
 
     const contentArray = [
       formatDate(new Date()),
       visitorsCount,
+
       mostFrequentCity,
-      mostFrequentCountry,
+      mostFrequentCityCount,
       secondFrequentCity,
-      secondFrequentCountry,
+      secondCityCount,
       thirdFrequentCity,
+      thirdCityCount,
+
+      mostFrequentCountry,
+      mostFrequentCountryCount,
+      secondFrequentCountry,
+      secondCountryCount,
       thirdFrequentCountry,
+      thirdCountryCount,
+
       mostFrequentOs,
       lastVisit.city_name,
       lastVisit.country_name,

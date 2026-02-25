@@ -19,15 +19,15 @@
 
 ---
 
-| # | Métrica | Valor |
-|:---:|:---|---:|
-| 📍 | **Ciudad más frecuente** | %{{first_city}} |
-| 📍 | **Segunda ciudad** | %{{second_city}} |
-| 📍 | **Tercera ciudad** | %{{third_city}} |
-| 🌍 | **País más frecuente** | %{{first_country}} |
-| 🌍 | **Segundo país** | %{{second_country}} |
-| 🌍 | **Tercer país** | %{{third_country}} |
-| 🖥️ | **Sistema Operativo habitual** | %{{os}} |
+| # | Métrica | Valor | Count |
+|:---:|:---|---:|---:|
+| 📍 | **Ciudad más frecuente** | %{{first_city}} | %{{first_city_count}} |
+| 📍 | **Segunda ciudad** | %{{second_city}} | %{{second_city_count}} |
+| 📍 | **Tercera ciudad** | %{{third_city}} | %{{third_city_count}} |
+| 🌍 | **País más frecuente** | %{{first_country}} | %{{first_country_count}} |
+| 🌍 | **Segundo país** | %{{second_country}} | %{{second_country_count}} |
+| 🌍 | **Tercer país** | %{{third_country}} | %{{third_country_count}} |
+| 🖥️ | **Sistema Operativo habitual** | %{{os}} | |
 
 `Última visita desde %{{city}}, %{{country}} el %{{created_at}}`
 

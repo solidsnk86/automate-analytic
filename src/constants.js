@@ -1,12 +1,21 @@
 export const PLACEHOLDERS = {
   UPDATED_AT: '%{{updated_at}}',
   VISITORS: '%{{visitors}}',
+
   FIRST_CITY: '%{{first_city}}',
+  FIRST_CITY_COUNT: '%{{first_city_count}}',
   SECOND_CITY: '%{{second_city}}',
+  SECOND_CITY_COUNT: '%{{second_city_count}}',
   THIRD_CITY: '%{{third_city}}',
+  THIRD_CITY_COUNT: '%{{third_city_count}}',
+
   FIRST_COUNTRY: '%{{first_country}}',
+  FIRST_COUNTRY_COUNT: '%{{first_country_count}}',
   SECOND_COUNTRY: '%{{second_country}}',
+  SECOND_COUNTRY_COUNT: '%{{second_country_count}}',
   THIRD_COUNTRY: '%{{third_country}}',
+  THIRD_COUNTRY_COUNT: '%{{third_country_count}}',
+
   FRECUENT_OS: '%{{os}}',
   CITY: '%{{city}}',
   COUNTRY: '%{{country}}',
