@@ -4,13 +4,8 @@ import fetch from 'node-fetch'
 import nodemailer from 'nodemailer'
 import { EmailTemplate } from './email/template.js'
 
-if (!process.env.BACK_URL) {
-  throw new Error('BACK_URL missing')
-}
-if (!process.env.GMAIL_PASS) throw new Error('GMAIL_PASS missing')
-
 const getData = async () => {
-  const res = await fetch(process.env.BACK_URL)
+  const res = await fetch('https://calcagni-gabriel-dev.vercel.app/api/supabase/get-all-visits')
   const data = await res.json()
   return data.allViews
 }
@@ -111,6 +106,6 @@ const formatDate = (str) => {
     await fs.writeFile('README.md', replacedItems, { encoding: 'utf-8' })
     console.log('💾 Datos actualizados, email enviado.')
   } catch (error) {
-    console.error(error)
+    console.log(error)
   }
 })().catch((err) => console.log(err))
