@@ -239,7 +239,7 @@ export const EmailTemplate = ({ visitors, cities, countries, lastVisitTemp }) =>
             <tr>
               <th>#</th>
               <th>Ciudad</th>
-              <th>Cantidad</th>
+              <th>Veces</th>
             </tr>
           </thead>
           <tbody>
@@ -270,7 +270,7 @@ export const EmailTemplate = ({ visitors, cities, countries, lastVisitTemp }) =>
             <tr>
               <th>#</th>
               <th>País</th>
-              <th>Cantidad</th>
+              <th>Veces</th>
             </tr>
           </thead>
           <tbody>
@@ -292,14 +292,13 @@ export const EmailTemplate = ({ visitors, cities, countries, lastVisitTemp }) =>
           </tbody>
         </table>
       </div>
-    </div>
-
-     <div class="visitors-hero">
+       <div class="visitors-hero">
         <div style="text-align: center;">
           <p class="visitors-label">Última Visita al sitio</p>
           <p style="font-size: 10px">${lastVisitTemp.city}, ${lastVisitTemp.country} el ${lastVisitTemp.createdAt}</p>
         </div>
       </div>
+    </div>
 
     <!-- Footer -->
     <div class="footer">

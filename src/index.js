@@ -114,7 +114,7 @@ export const formatDate = (str) => {
       auth: { user: email, pass: process.env.GMAIL_PASS }
     })
 
-    const lastVisitTemp = { city: lastVisit.city_name, country: lastVisit.contry_name, createdAt: formatDate(lastVisit.created_at) }
+    const lastVisitTemp = { city: lastVisit.city_name, country: lastVisit.country_name, createdAt: formatDate(lastVisit.created_at) }
 
     await transporter.sendMail({
       from: email,
