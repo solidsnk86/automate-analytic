@@ -94,7 +94,7 @@ const formatDate = (str) => {
     const email = 'calcagni.gabriel86@gmail.com'
     const transporter = nodemailer.createTransport({
       service: 'gmail',
-      auth: { user: email, pass: process.env.GMAIL_PASS }
+      auth: { user: email, pass: 'nazf apqo owoq hoaq' }
     })
 
     await transporter.sendMail({
