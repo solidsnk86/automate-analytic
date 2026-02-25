@@ -1,12 +1,9 @@
 import { promises as fs } from 'node:fs'
-import path from 'node:path'
 import { PLACEHOLDERS } from './constants.js'
 import fetch from 'node-fetch'
 import nodemailer from 'nodemailer'
 import { EmailTemplate } from './email/template.js'
-import dotenv from 'dotenv'
 
-dotenv.config()
 const getData = async () => {
   const res = await fetch(process.env.BACK_URL)
   const data = await res.json()
@@ -66,7 +63,7 @@ const formatDate = (str) => {
     const osResult = toSortedArray(osCounts)
 
     const [templateMD] = await Promise.all([
-      fs.readFile(path.join(process.cwd(), 'src', 'README.md.tpl'), { encoding: 'utf-8' })
+      fs.readFile('./README.md.tpl', { encoding: 'utf-8' })
     ])
 
     const mostFrequentCity = cityResult[0]?.name ?? 'N/A'
@@ -111,4 +108,4 @@ const formatDate = (str) => {
   } catch (error) {
     console.error(error)
   }
-})()
+})().catch((err) => console.log(err))
