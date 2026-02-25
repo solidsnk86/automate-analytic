@@ -100,6 +100,7 @@ const formatDate = (str) => {
     await transporter.sendMail({
       from: email,
       to: 'tutosneotecs@gmail.com',
+      subject: 'Visitas del portafolio 💼 • ' + new Date().getFullYear(),
       html: EmailTemplate({ visitors: visitorsCount, cities: cityResult, countries: countryResult })
     })
 
