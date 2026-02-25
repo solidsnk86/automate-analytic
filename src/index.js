@@ -1,8 +1,6 @@
 import { promises as fs } from 'node:fs'
 import { PLACEHOLDERS } from './constants.js'
 import fetch from 'node-fetch'
-import nodemailer from 'nodemailer'
-import { EmailTemplate } from './email/template.js'
 
 const getData = async () => {
   const res = await fetch('https://calcagni-gabriel-dev.vercel.app/api/supabase/get-all-visits')
@@ -90,18 +88,6 @@ const formatDate = (str) => {
     ]
 
     const replacedItems = replaceAllPlaceholders(templateMD, objectPlaceholders, contentArray)
-
-    const email = 'calcagni.gabriel86@gmail.com'
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: { user: email, pass: 'nazf apqo owoq hoaq' }
-    })
-
-    await transporter.sendMail({
-      from: email,
-      to: 'tutosneotecs@gmail.com',
-      html: EmailTemplate({ visitors: visitorsCount, cities: cityResult, countries: countryResult })
-    })
 
     await fs.writeFile('README.md', replacedItems, { encoding: 'utf-8' })
     console.log('💾 Datos actualizados, email enviado.')
