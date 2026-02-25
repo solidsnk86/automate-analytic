@@ -61,7 +61,7 @@ const formatDate = (str) => {
     const osResult = toSortedArray(osCounts)
 
     const [templateMD] = await Promise.all([
-      fs.readFile('../src/README.md.tpl', { encoding: 'utf-8' })
+      fs.readFile('README.md.tpl', { encoding: 'utf-8' })
     ])
 
     const mostFrequentCity = cityResult[0]?.name ?? 'N/A'
