@@ -28,9 +28,7 @@
 | 🌍 | **Tercer país** | %{{third_country}} |
 | 🖥️ | **Sistema Operativo habitual** | %{{os}} |
 
-<div>
-   Última visita desde %{{city}}, %{{country}} a las %{{created_at}}
-</div>
+`Última visita desde %{{city}}, %{{country}} a las %{{created_at}}`
 
 ---
 

@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Update README.md
+      - name: Update README.md and send email
         run: npm run send-data
 
       - name: Configure Git
