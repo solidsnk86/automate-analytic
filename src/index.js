@@ -4,6 +4,9 @@ import fetch from 'node-fetch'
 import nodemailer from 'nodemailer'
 import { EmailTemplate } from './email/template.js'
 
+if (!process.env.BACK_URL) throw new Error('BACK_URL missing')
+if (!process.env.GMAIL_PASS) throw new Error('GMAIL_PASS missing')
+
 const getData = async () => {
   const res = await fetch(process.env.BACK_URL)
   const data = await res.json()
