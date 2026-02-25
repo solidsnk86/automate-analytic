@@ -80,6 +80,7 @@ export const EmailTemplate = ({ visitors, cities, countries, lastVisitTemp }) =>
       align-items: center;
       gap: 20px;
       margin-bottom: 24px;
+      margin-inline: auto;
       box-shadow: 0 2px 12px rgba(0,0,0,0.04);
       justify-content: center;
     }
@@ -216,7 +217,7 @@ export const EmailTemplate = ({ visitors, cities, countries, lastVisitTemp }) =>
     <!-- Header -->
     <div class="header">
       <p class="header-eyebrow">Portafolio 2025</p>
-      <h1>Tu resumen<br><em>de visitas</em></h1>
+      <h1>Mi resumen<br><em>de visitas</em></h1>
     </div>
 
     <!-- Body -->
@@ -295,7 +296,7 @@ export const EmailTemplate = ({ visitors, cities, countries, lastVisitTemp }) =>
        <div class="visitors-hero">
         <div style="text-align: center;">
           <p class="visitors-label">Última Visita al sitio</p>
-          <p style="font-size: 10px; font-weight: 500; padding-top: 8px;">${lastVisitTemp.city}, ${lastVisitTemp.country} el ${lastVisitTemp.createdAt}</p>
+          <p style="font-size: 10px; font-weight: 500; padding-top: 4px;">${lastVisitTemp.city}, ${lastVisitTemp.country} el ${lastVisitTemp.createdAt}</p>
         </div>
       </div>
     </div>
