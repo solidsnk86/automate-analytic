@@ -1,4 +1,4 @@
-export const EmailTemplate = ({ visitors, cities, countries }) => `
+export const EmailTemplate = ({ visitors, cities, countries, lastVisitTemp }) => `
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -225,7 +225,7 @@ export const EmailTemplate = ({ visitors, cities, countries }) => `
 
       <!-- Total visitors -->
       <div class="visitors-hero">
-        <div>
+        <div style="text-align: center;">
           <p class="visitors-label">Visitantes totales</p>
           <p class="visitors-number">${visitors}</p>
         </div>
@@ -245,14 +245,17 @@ export const EmailTemplate = ({ visitors, cities, countries }) => `
             <tr>
               <td class="rank">1</td>
               <td class="place">${cities[0].name || 'N/A'}</td>
+              <td class="place">${cities[0].count || 'N/A'}</td>
             </tr>
             <tr>
               <td class="rank">2</td>
               <td class="place">${cities[1].name || 'N/A'}</td>
+              <td class="place">${cities[1].count || 'N/A'}</td>
             </tr>
             <tr>
               <td class="rank">3</td>
               <td class="place">${cities[2].name || 'N/A'}</td>
+              <td class="place">${cities[2].count || 'N/A'}</td>
             </tr>
           </tbody>
         </table>
@@ -272,19 +275,29 @@ export const EmailTemplate = ({ visitors, cities, countries }) => `
             <tr>
               <td class="rank">1</td>
               <td class="place">${countries[0].name || 'N/A'}</td>
+              <td class="place">${countries[0].count || 'N/A'}</td>
             </tr>
             <tr>
               <td class="rank">2</td>
               <td class="place">${countries[1].name || 'N/A'}</td>
+              <td class="place">${countries[1].count || 'N/A'}</td>
             </tr>
             <tr>
               <td class="rank">3</td>
               <td class="place">${countries[2].name || 'N/A'}</td>
+              <td class="place">${countries[2].count || 'N/A'}</td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
+
+     <div class="visitors-hero">
+        <div style="text-align: center;">
+          <p class="visitors-label">Visitantes totales</p>
+          <p style="font-size: 10px">Última visita ${lastVisitTemp.city}, ${lastVisitTemp.country} el ${lastVisitTemp.createdAt}</p>
+        </div>
+      </div>
 
     <!-- Footer -->
     <div class="footer">

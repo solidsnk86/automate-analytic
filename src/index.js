@@ -20,7 +20,7 @@ const replaceAllPlaceholders = (template, placeholders, updatedContent) => {
   return result
 }
 
-const formatDate = (str) => {
+export const formatDate = (str) => {
   return new Date(str).toLocaleDateString('es-AR', {
     year: 'numeric',
     month: 'long',
@@ -97,11 +97,13 @@ const formatDate = (str) => {
       auth: { user: email, pass: process.env.GMAIL_PASS }
     })
 
+    const lastVisitTemp = { city: lastVisit.city_name, country: lastVisit.contry_name, createdAt: formatDate(lastVisit.created_at) }
+
     await transporter.sendMail({
       from: email,
       to: 'tutosneotecs@gmail.com',
       subject: 'Visitas del portafolio 💼 • ' + new Date().getFullYear(),
-      html: EmailTemplate({ visitors: visitorsCount, cities: cityResult, countries: countryResult })
+      html: EmailTemplate({ visitors: visitorsCount, cities: cityResult, countries: countryResult, lastVisitTemp })
     })
 
     const replacedItems = replaceAllPlaceholders(templateMD, objectPlaceholders, contentArray)
