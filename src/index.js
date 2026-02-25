@@ -73,6 +73,7 @@ const formatDate = (str) => {
     const thirdFrequentCountry = countryResult[2].name ?? 'N/A'
 
     const contentArray = [
+      formatDate(new Date()),
       visitorsCount,
       mostFrequentCity,
       mostFrequentCountry,

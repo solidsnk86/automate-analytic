@@ -1,4 +1,5 @@
 export const PLACEHOLDERS = {
+  UPDATED_AT: '%{{updated_at}}',
   VISITORS: '%{{visitors}}',
   FIRST_CITY: '%{{first_city}}',
   SECOND_CITY: '%{{second_city}}',

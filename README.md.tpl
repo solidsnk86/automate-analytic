@@ -3,6 +3,7 @@
 # 📬 Resumen de Visitas
 
 <sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO</sub>
+<sub>README ACTUALIZADO %{{updated_at}}</sub>
 
 </div>
 
@@ -28,7 +29,7 @@
 | 🌍 | **Tercer país** | %{{third_country}} |
 | 🖥️ | **Sistema Operativo habitual** | %{{os}} |
 
-`Última visita desde %{{city}}, %{{country}} a las %{{created_at}}`
+`Última visita desde %{{city}}, %{{country}} el %{{created_at}}`
 
 ---
 
