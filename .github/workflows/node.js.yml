@@ -8,6 +8,9 @@ on:
   schedule:
     - cron: '0 */4 * * *'
 
+permissions:
+  contents: write
+
 jobs:
   send-data:
     runs-on: ubuntu-latest
@@ -26,8 +29,6 @@ jobs:
 
       - name: Update README.md
         run: npm run send-data
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Configure Git
         run: |
@@ -36,5 +37,3 @@ jobs:
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "🤖[neoBot] Updated data and sended email"
           git push origin master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
