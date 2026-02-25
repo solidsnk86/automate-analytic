@@ -19,7 +19,7 @@
 
 ---
 
-| # | Métrica | Valor | Count |
+| # | Métrica | Valor | Cantidad |
 |:---:|:---|---:|---:|
 | 📍 | **Ciudad más frecuente** | %{{first_city}} | %{{first_city_count}} |
 | 📍 | **Segunda ciudad** | %{{second_city}} | %{{second_city_count}} |
