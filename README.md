@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO · 25 de febrero de 2026, 03:17:07 a. m.</sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO · 25 de febrero de 2026, 03:20:42 a. m.</sub>
 <sub></sub>
 
 </div>
@@ -19,7 +19,7 @@
 
 ---
 
-| # | Métrica | Valor | Count |
+| # | Métrica | Valor | Cantidad |
 |:---:|:---|---:|---:|
 | 📍 | **Ciudad más frecuente** | San Luis | 55 |
 | 📍 | **Segunda ciudad** | San Rafael | 14 |
