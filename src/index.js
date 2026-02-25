@@ -4,6 +4,8 @@ import fetch from 'node-fetch'
 import nodemailer from 'nodemailer'
 import { EmailTemplate } from './email/template.js'
 
+process.loadEnvFile('.env')
+
 const getData = async () => {
   const res = await fetch(process.env.BACK_URL)
   const data = await res.json()
@@ -63,7 +65,7 @@ const formatDate = (str) => {
     const osResult = toSortedArray(osCounts)
 
     const [templateMD] = await Promise.all([
-      fs.readFile('./README.md.tpl', { encoding: 'utf-8' })
+      fs.readFile('../src/README.md.tpl', { encoding: 'utf-8' })
     ])
 
     const mostFrequentCity = cityResult[0]?.name ?? 'N/A'
