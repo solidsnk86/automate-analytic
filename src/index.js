@@ -4,9 +4,9 @@ import { PLACEHOLDERS } from './constants.js'
 import fetch from 'node-fetch'
 import nodemailer from 'nodemailer'
 import { EmailTemplate } from './email/template.js'
+import dotenv from 'dotenv'
 
-process.loadEnvFile('.env')
-
+dotenv.config()
 const getData = async () => {
   const res = await fetch(process.env.BACK_URL)
   const data = await res.json()
