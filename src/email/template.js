@@ -296,7 +296,7 @@ export const EmailTemplate = ({ visitors, cities, countries, lastVisitTemp }) =>
        <div class="visitors-hero">
         <div style="text-align: center; width: 100%;">
           <p class="visitors-label">Última Visita al sitio</p>
-          <p style="font-size: 10px; font-weight: 500; padding-top: 4px;">${lastVisitTemp.city}, ${lastVisitTemp.country} el ${lastVisitTemp.createdAt}</p>
+          <p style="font-size: 12px; font-weight: 500; padding-top: 4px;">${lastVisitTemp.city}, ${lastVisitTemp.country} el ${lastVisitTemp.createdAt}</p>
         </div>
       </div>
     </div>
