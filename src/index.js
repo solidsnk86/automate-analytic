@@ -4,8 +4,6 @@ import fetch from 'node-fetch'
 import nodemailer from 'nodemailer'
 import { EmailTemplate } from './email/template.js'
 
-process.loadEnvFile('.env')
-
 const getData = async () => {
   const res = await fetch(process.env.BACK_URL)
   const data = await res.json()
