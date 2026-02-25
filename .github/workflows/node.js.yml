@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: "0 */3 * * *"
 
 permissions:
   contents: write
@@ -14,6 +14,10 @@ permissions:
 jobs:
   send-data:
     runs-on: ubuntu-latest
+    environment: production
+    env:
+      BACK_URL: ${{ secrets.BACK_URL }}
+      GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
 
     steps:
       - name: Checkout code
@@ -22,7 +26,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Install dependencies
         run: npm install

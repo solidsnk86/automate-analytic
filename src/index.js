@@ -5,7 +5,7 @@ import { EmailTemplate } from './email/template.js'
 import nodemailer from 'nodemailer'
 
 const getData = async () => {
-  const res = await fetch('https://calcagni-gabriel-dev.vercel.app/api/supabase/get-all-visits')
+  const res = await fetch(process.env.BACK_URL)
   const data = await res.json()
   return data.allViews
 }
@@ -94,7 +94,7 @@ const formatDate = (str) => {
     const email = 'calcagni.gabriel86@gmail.com'
     const transporter = nodemailer.createTransport({
       service: 'gmail',
-      auth: { user: email, pass: 'nazf apqo owoq hoaq' }
+      auth: { user: email, pass: process.env.GMAIL_PASS }
     })
 
     await transporter.sendMail({
