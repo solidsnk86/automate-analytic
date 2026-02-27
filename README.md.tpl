@@ -2,8 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO · %{{updated_at}}</sub>
-<sub></sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · %{{updated_at}}</sub>
 
 </div>
 

@@ -119,7 +119,7 @@ export const formatDate = (str) => {
     await transporter.sendMail({
       from: email,
       to: 'calcagni.gabriel86@gmail.com',
-      subject: 'Reporte de visitas del portafolio • ' + new Date().toLocaleDateString('es-AR'),
+      subject: 'Reporte de visitas del portafolio • ' + formatDate(new Date()),
       html: EmailTemplate({ visitors: visitorsCount, cities: cityResult, countries: countryResult, lastVisitTemp })
     })
 
