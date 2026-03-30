@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 29 de marzo de 2026, 10:58:23 p. m.</sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 30 de marzo de 2026, 02:56:41 a. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 264
+# 265
 
 </div>
 
@@ -28,7 +28,7 @@
 | 🌍 | **Tercer país** | Los_Angeles | 13 |
 | 🖥️ | **Sistema Operativo habitual** | Windows | |
 
-`Última visita desde San Jose, Los_Angeles el 28 de marzo de 2026, 07:19:15 p. m.`
+`Última visita desde Tel Aviv, Jerusalem el 30 de marzo de 2026, 12:11:35 a. m.`
 
 ---
 
