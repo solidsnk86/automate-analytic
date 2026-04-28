@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 28 de abril de 2026, 07:09:01 a. m.</sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 28 de abril de 2026, 02:42:59 p. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 274
+# 275
 
 </div>
 
@@ -20,15 +20,15 @@
 
 | # | Métrica | Valor | Cantidad |
 |:---:|:---|---:|---:|
-| 📍 | **Ciudad más frecuente** | San Luis | 63 |
+| 📍 | **Ciudad más frecuente** | San Luis | 64 |
 | 📍 | **Segunda ciudad** | San Rafael | 15 |
 | 📍 | **Tercera ciudad** | San Jose | 11 |
-| 🌍 | **País más frecuente** | Argentina | 162 |
+| 🌍 | **País más frecuente** | Argentina | 163 |
 | 🌍 | **Segundo país** | New_York | 15 |
 | 🌍 | **Tercer país** | Los_Angeles | 13 |
 | 🖥️ | **Sistema Operativo habitual** | Windows | |
 
-`Última visita desde San Luis, Argentina el 25 de abril de 2026, 03:17:17 p. m.`
+`Última visita desde San Luis, Argentina el 28 de abril de 2026, 09:34:11 a. m.`
 
 ---
 
