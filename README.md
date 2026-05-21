@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 21 de mayo de 2026, 04:43:48 a. m.</sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 21 de mayo de 2026, 08:16:10 a. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 294
+# 296
 
 </div>
 
@@ -28,7 +28,7 @@
 | 🌍 | **Tercer país** | New_York | 15 |
 | 🖥️ | **Sistema Operativo habitual** | Windows | |
 
-`Última visita desde São Paulo, Sao_Paulo el 19 de mayo de 2026, 02:27:15 a. m.`
+`Última visita desde Vancouver, Vancouver el 21 de mayo de 2026, 07:14:35 a. m.`
 
 ---
 
