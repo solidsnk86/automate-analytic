@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 30 de mayo de 2026 a las 10:47:27 p. m.</sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 31 de mayo de 2026 a las 12:15:18 a. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 95
+# 96
 
 </div>
 
@@ -28,7 +28,7 @@
 | 🌍 | **Tercer país** | Lima | 12 |
 | 🖥️ | **Sistema Operativo habitual** | Windows | |
 
-`Última visita desde San Nicolás de los Garza, Monterrey el 30 de mayo de 2026 a las 09:10:36 p. m.`
+`Última visita desde Xochimilco, Mexico_City el 30 de mayo de 2026 a las 11:09:08 p. m.`
 
 ---
 
