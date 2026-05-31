@@ -16,8 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     env:
-      BACK_URL: ${{ secrets.BACK_URL }}
-      GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_ANNON_KEY: ${{ secrets.SUPABASE_ANNON_KEY }}
+      GMAIL_USER_PASSWORD: ${{ secrets.GMAIL_USER_PASSWORD }}
+      DB_TABLE: ${{ secrets.DB_TABLE }}
+
 
     steps:
       - name: Checkout code
