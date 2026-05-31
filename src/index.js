@@ -50,6 +50,7 @@ export const formatDate = (str) => {
     const lastVisit = data[0] ?? {};
     const allCities = data.map((d) => d.city_name).filter(Boolean);
     const allCountries = data.map((d) => d.country_name).filter(Boolean);
+    const allCountriesEmojiFlag = data.map((d) => d.emoji_flag).filter(Boolean);
     const allOs = data.map((d) => d.so).filter(Boolean);
 
     const countBy = (arr) =>
@@ -62,6 +63,7 @@ export const formatDate = (str) => {
 
     const cityCounts = countBy(allCities);
     const countryCounts = countBy(allCountries);
+    const countryEmojisCounts = countBy(allCountriesEmojiFlag)
     const osCounts = countBy(allOs);
 
     const toSortedArray = (counts) =>
@@ -71,6 +73,7 @@ export const formatDate = (str) => {
 
     const cityResult = toSortedArray(cityCounts);
     const countryResult = toSortedArray(countryCounts);
+    const countryEmojisResult = toSortedArray(countryEmojisCounts);
     const osResult = toSortedArray(osCounts);
 
     const [templateMD] = await Promise.all([
@@ -137,7 +140,7 @@ export const formatDate = (str) => {
       html: EmailTemplate({
         visitors: visitorsCount,
         cities: cityResult,
-        countries: countryResult,
+        countries: countryEmojisResult,
         lastVisitTemp,
       }),
     });
