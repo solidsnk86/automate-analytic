@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 31 de mayo de 2026 a las 12:25:09 a. m.</sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 31 de mayo de 2026 a las 12:33:21 a. m.</sub>
 
 </div>
 
@@ -23,9 +23,9 @@
 | 📍 | **Ciudad más frecuente** | San Luis | 17 |
 | 📍 | **Segunda ciudad** | Lima | 9 |
 | 📍 | **Tercera ciudad** | Bogotá | 4 |
-| 🌍 | **País más frecuente** | Argentina | 20 |
-| 🌍 | **Segundo país** | Bogota | 12 |
-| 🌍 | **Tercer país** | Lima | 12 |
+| 🌍 | **País más frecuente** | 🇦🇷 | 20 |
+| 🌍 | **Segundo país** | 🇲🇽 | 15 |
+| 🌍 | **Tercer país** | 🇨🇴 | 12 |
 | 🖥️ | **Sistema Operativo habitual** | Windows | |
 
 `Última visita desde Xochimilco, Mexico_City el 30 de mayo de 2026 a las 11:09:08 p. m.`
