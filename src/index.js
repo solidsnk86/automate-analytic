@@ -87,12 +87,12 @@ export const formatDate = (str) => {
     const thirdFrequentCity = cityResult[2]?.name ?? "N/A";
     const thirdCityCount = cityResult[2]?.count ?? 0;
 
-    const mostFrequentCountry = countryResult[0]?.name ?? "N/A";
-    const mostFrequentCountryCount = countryResult[0]?.count ?? 0;
-    const secondFrequentCountry = countryResult[1]?.name ?? "N/A";
-    const secondCountryCount = countryResult[1]?.count ?? 0;
-    const thirdFrequentCountry = countryResult[2]?.name ?? "N/A";
-    const thirdCountryCount = countryResult[2]?.count ?? 0;
+    const mostFrequentCountry = countryEmojisResult[0]?.name ?? "N/A";
+    const mostFrequentCountryCount = countryEmojisResult[0]?.count ?? 0;
+    const secondFrequentCountry = countryEmojisResult[1]?.name ?? "N/A";
+    const secondCountryCount = countryEmojisResult[1]?.count ?? 0;
+    const thirdFrequentCountry = countryEmojisResult[2]?.name ?? "N/A";
+    const thirdCountryCount = countryEmojisResult[2]?.count ?? 0;
 
     const mostFrequentOs = osResult[0]?.name ?? "N/A";
 
