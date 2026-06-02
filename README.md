@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 2 de junio de 2026 a las 01:10:49 p. m.</sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 2 de junio de 2026 a las 07:19:37 p. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 98
+# 99
 
 </div>
 
@@ -22,13 +22,13 @@
 |:---:|:---|---:|---:|
 | 📍 | **Ciudad más frecuente** | San Luis | 17 |
 | 📍 | **Segunda ciudad** | Lima | 9 |
-| 📍 | **Tercera ciudad** | Bogotá | 5 |
+| 📍 | **Tercera ciudad** | Bogotá | 6 |
 | 🌍 | **País más frecuente** | 🇦🇷 | 20 |
 | 🌍 | **Segundo país** | 🇲🇽 | 15 |
-| 🌍 | **Tercer país** | 🇨🇴 | 13 |
-| 🖥️ | **Sistema Operativo habitual** | Android | |
+| 🌍 | **Tercer país** | 🇨🇴 | 14 |
+| 🖥️ | **Sistema Operativo habitual** | Windows | |
 
-`Última visita desde Havana, Havana el 1 de junio de 2026 a las 10:37:43 p. m.`
+`Última visita desde Bogotá, Bogota el 2 de junio de 2026 a las 02:39:14 p. m.`
 
 ---
 
