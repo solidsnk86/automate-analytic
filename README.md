@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 1 de junio de 2026 a las 07:31:13 p. m.</sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 1 de junio de 2026 a las 11:58:09 p. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 97
+# 98
 
 </div>
 
@@ -26,9 +26,9 @@
 | 🌍 | **País más frecuente** | 🇦🇷 | 20 |
 | 🌍 | **Segundo país** | 🇲🇽 | 15 |
 | 🌍 | **Tercer país** | 🇨🇴 | 13 |
-| 🖥️ | **Sistema Operativo habitual** | Windows | |
+| 🖥️ | **Sistema Operativo habitual** | Android | |
 
-`Última visita desde Bogotá, Bogota el 31 de mayo de 2026 a las 06:49:21 p. m.`
+`Última visita desde Havana, Havana el 1 de junio de 2026 a las 10:37:43 p. m.`
 
 ---
 
