@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 2 de junio de 2026 a las 07:19:37 p. m.</sub>
+<sub>PORTAFOLIO 2025 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 3 de junio de 2026 a las 12:33:32 a. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 99
+# 100
 
 </div>
 
@@ -24,11 +24,11 @@
 | 📍 | **Segunda ciudad** | Lima | 9 |
 | 📍 | **Tercera ciudad** | Bogotá | 6 |
 | 🌍 | **País más frecuente** | 🇦🇷 | 20 |
-| 🌍 | **Segundo país** | 🇲🇽 | 15 |
+| 🌍 | **Segundo país** | 🇲🇽 | 16 |
 | 🌍 | **Tercer país** | 🇨🇴 | 14 |
-| 🖥️ | **Sistema Operativo habitual** | Windows | |
+| 🖥️ | **Sistema Operativo habitual** | Android | |
 
-`Última visita desde Bogotá, Bogota el 2 de junio de 2026 a las 02:39:14 p. m.`
+`Última visita desde Tlalnepantla, Mexico_City el 2 de junio de 2026 a las 11:17:34 p. m.`
 
 ---
 
