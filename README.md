@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 4 de junio de 2026 a las 07:55:45 p. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 4 de junio de 2026 a las 07:58:29 p. m.</sub>
 
 </div>
 
@@ -17,6 +17,7 @@
 </div>
 
 ---
+
 <div align="center">
 
 | Tipo | Nombre | Cantidad |
@@ -33,11 +34,12 @@
 | País #5 | 🇨🇴 | 14 |
 | SO habitual | Windows | — |
 
+</div>
+
+---
+
 > Última visita desde **Boardman**, **Los_Angeles**
 > el **3 de junio de 2026 a las 02:05:12 a. m.** · **ayer**
-
-</div>
----
 
 <div align="center">
 
