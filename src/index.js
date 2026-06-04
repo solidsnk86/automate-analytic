@@ -4,6 +4,7 @@ import fetch from "node-fetch";
 import { EmailTemplate } from "./email/template.js";
 import nodemailer from "nodemailer";
 import { supabase } from "./supabase/client.js";
+import { timeAgo } from "./utils/timeAgo.js";
 
 const getData = async () => {
   try {
@@ -63,7 +64,7 @@ export const formatDate = (str) => {
 
     const cityCounts = countBy(allCities);
     const countryCounts = countBy(allCountries);
-    const countryEmojisCounts = countBy(allCountriesEmojiFlag)
+    const countryEmojisCounts = countBy(allCountriesEmojiFlag);
     const osCounts = countBy(allOs);
 
     const toSortedArray = (counts) =>
@@ -86,6 +87,10 @@ export const formatDate = (str) => {
     const secondCityCount = cityResult[1]?.count ?? 0;
     const thirdFrequentCity = cityResult[2]?.name ?? "N/A";
     const thirdCityCount = cityResult[2]?.count ?? 0;
+    const fourthFrequentCity = cityResult[3]?.name ?? "N/A";
+    const fourthCityCount = cityResult[3]?.count ?? 0;
+    const fifthFrequentCity = cityResult[4]?.name ?? "N/A";
+    const fifthCityCount = cityResult[4]?.count ?? 0;
 
     const mostFrequentCountry = countryEmojisResult[0]?.name ?? "N/A";
     const mostFrequentCountryCount = countryEmojisResult[0]?.count ?? 0;
@@ -93,6 +98,10 @@ export const formatDate = (str) => {
     const secondCountryCount = countryEmojisResult[1]?.count ?? 0;
     const thirdFrequentCountry = countryEmojisResult[2]?.name ?? "N/A";
     const thirdCountryCount = countryEmojisResult[2]?.count ?? 0;
+    const fourthFrequentCountry = countryEmojisResult[3]?.name ?? "N/A";
+    const fourthCountryCount = countryEmojisResult[3]?.count ?? 0;
+    const fifthFrequentCountry = countryEmojisResult[2]?.name ?? "N/A";
+    const fifthCountryCount = countryEmojisResult[2]?.count ?? 0;
 
     const mostFrequentOs = osResult[0]?.name ?? "N/A";
 
@@ -117,6 +126,7 @@ export const formatDate = (str) => {
       mostFrequentOs,
       lastVisit.city_name,
       lastVisit.country_name,
+      timeAgo(lastVisit.created_at),
       formatDate(lastVisit.created_at),
       new Date().getFullYear(),
     ];
