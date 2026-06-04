@@ -76,7 +76,7 @@ export const formatDate = (str) => {
     const countryResult = toSortedArray(countryCounts);
     const countryEmojisResult = toSortedArray(countryEmojisCounts);
     const osResult = toSortedArray(osCounts);
-
+  
     const [templateMD] = await Promise.all([
       fs.readFile("README.md.tpl", { encoding: "utf-8" }),
     ]);
@@ -115,6 +115,10 @@ export const formatDate = (str) => {
       secondCityCount,
       thirdFrequentCity,
       thirdCityCount,
+      fourthFrequentCity,
+      fourthCityCount,
+      fifthFrequentCity,
+      fifthCityCount,
 
       mostFrequentCountry,
       mostFrequentCountryCount,
@@ -122,6 +126,10 @@ export const formatDate = (str) => {
       secondCountryCount,
       thirdFrequentCountry,
       thirdCountryCount,
+      fourthFrequentCountry,
+      fourthCountryCount,
+      fifthFrequentCountry,
+      fifthCountryCount,
 
       mostFrequentOs,
       lastVisit.city_name,

@@ -18,6 +18,7 @@
 
 ---
 <div align="center">
+
 | # | Métrica | Valor | Cantidad |
 |:---:|:---|---:|---:|
 | 📍 | **Ciudad más frecuente** | %{{first_city}} | %{{first_city_count}} |
@@ -33,6 +34,7 @@
 | 🖥️ | **Sistema Operativo habitual** | %{{os}} | |
 
 `Última visita desde %{{city}}, %{{country}} el %{{created_at}} • %{{time_ago}}`
+
 </div>
 ---
 

@@ -27,7 +27,7 @@ export const PLACEHOLDERS = {
   FRECUENT_OS: "%{{os}}",
   CITY: "%{{city}}",
   COUNTRY: "%{{country}}",
+  TIME_AGO: "%{{time_ago}}",
   CREATED_AT: "%{{created_at}}",
-  TIME_AGO: "${{time_ago}}",
   YEAR: "%{{year}}",
 };
