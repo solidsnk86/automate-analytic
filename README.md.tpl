@@ -17,6 +17,7 @@
 </div>
 
 ---
+
 <div align="center">
 
 | Tipo | Nombre | Cantidad |
@@ -33,11 +34,12 @@
 | País #5 | %{{fifth_country}} | %{{fifth_country_count}} |
 | SO habitual | %{{os}} | — |
 
+</div>
+
+---
+
 > Última visita desde **%{{city}}**, **%{{country}}**
 > el **%{{created_at}}** · **%{{time_ago}}**
-
-</div>
----
 
 <div align="center">
 
