@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 4 de junio de 2026 a las 07:42:35 p. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 4 de junio de 2026 a las 07:55:45 p. m.</sub>
 
 </div>
 
@@ -18,21 +18,24 @@
 
 ---
 <div align="center">
-| # | Métrica | Valor | Cantidad |
-|:---:|:---|---:|---:|
-| 📍 | **Ciudad más frecuente** | San Luis | 17 |
-| 📍 | **Segunda ciudad** | Lima | 9 |
-| 📍 | **Tercera ciudad** | Bogotá | 6 |
-| 📍 | **Cuarta ciudad** | Ciudad Juárez | 3 |
-| 📍 | **Quinta ciudad** | Santiago | 3 |
-| 🌍 | **País más frecuente** | 🇦🇷 | 20 |
-| 🌍 | **Segundo país** | 🇲🇽 | 16 |
-| 🌍 | **Tercer país** | 🇨🇴 | 14 |
-| 🌍 | **Cuarto país** | 🇵🇪 | 12 |
-| 🌍 | **Quinto país** | 🇨🇴 | 14 |
-| 🖥️ | **Sistema Operativo habitual** | Windows | |
 
-`Última visita desde Boardman, Los_Angeles el 3 de junio de 2026 a las 02:05:12 a. m. • ayer`
+| Tipo | Nombre | Cantidad |
+|------|---------|---------:|
+| Ciudad #1 | San Luis | 17 |
+| Ciudad #2 | Lima | 9 |
+| Ciudad #3 | Bogotá | 6 |
+| Ciudad #4 | Ciudad Juárez | 3 |
+| Ciudad #5 | Santiago | 3 |
+| País #1 | 🇦🇷 | 20 |
+| País #2 | 🇲🇽 | 16 |
+| País #3 | 🇨🇴 | 14 |
+| País #4 | 🇵🇪 | 12 |
+| País #5 | 🇨🇴 | 14 |
+| SO habitual | Windows | — |
+
+> Última visita desde **Boardman**, **Los_Angeles**
+> el **3 de junio de 2026 a las 02:05:12 a. m.** · **ayer**
+
 </div>
 ---
 
