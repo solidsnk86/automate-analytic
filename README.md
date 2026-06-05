@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 4 de junio de 2026 a las 07:58:29 p. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 4 de junio de 2026 a las 11:50:31 p. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 101
+# 102
 
 </div>
 
@@ -22,12 +22,12 @@
 
 | Tipo | Nombre | Cantidad |
 |------|---------|---------:|
-| Ciudad #1 | San Luis | 17 |
+| Ciudad #1 | San Luis | 18 |
 | Ciudad #2 | Lima | 9 |
 | Ciudad #3 | Bogotá | 6 |
 | Ciudad #4 | Ciudad Juárez | 3 |
 | Ciudad #5 | Santiago | 3 |
-| País #1 | 🇦🇷 | 20 |
+| País #1 | 🇦🇷 | 21 |
 | País #2 | 🇲🇽 | 16 |
 | País #3 | 🇨🇴 | 14 |
 | País #4 | 🇵🇪 | 12 |
@@ -38,8 +38,8 @@
 
 ---
 
-> Última visita desde **Boardman**, **Los_Angeles**
-> el **3 de junio de 2026 a las 02:05:12 a. m.** · **ayer**
+> Última visita desde **San Luis**, **Argentina**
+> el **4 de junio de 2026 a las 09:35:54 p. m.** · **hace 2 horas**
 
 <div align="center">
 
