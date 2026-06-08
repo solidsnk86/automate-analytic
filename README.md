@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 8 de junio de 2026 a las 03:21:34 p. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 8 de junio de 2026 a las 06:46:35 p. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 104
+# 105
 
 </div>
 
@@ -27,19 +27,19 @@
 | Ciudad #3 | Bogotá | 6 |
 | Ciudad #4 | Ciudad Juárez | 3 |
 | Ciudad #5 | Santiago | 3 |
-| País #1 | 🇦🇷 | 23 |
+| País #1 | 🇦🇷 | 24 |
 | País #2 | 🇲🇽 | 16 |
 | País #3 | 🇨🇴 | 14 |
 | País #4 | 🇵🇪 | 12 |
 | País #5 | 🇨🇴 | 14 |
-| SO habitual | Android | — |
+| SO habitual | Windows | — |
 
 </div>
 
 ---
 
-> Última visita desde **San Luis**, **Argentina**
-> el **6 de junio de 2026 a las 03:40:14 p. m.** · **ayer**
+> Última visita desde **Buenos Aires**, **Argentina**
+> el **8 de junio de 2026 a las 04:37:30 p. m.** · **hace 2 horas**
 
 <div align="center">
 
