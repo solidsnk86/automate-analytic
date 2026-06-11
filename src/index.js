@@ -5,6 +5,11 @@ import { EmailTemplate } from "./email/template.js";
 import nodemailer from "nodemailer";
 import { supabase } from "./supabase/client.js";
 import { timeAgo } from "./utils/timeAgo.js";
+import { formatDate } from "./utils/formatDate.js";
+import { getCountryFromTimeZone } from "./utils/getCountry.js";
+import { loadEnvFile } from "node:process";
+
+loadEnvFile(".env");
 
 const getData = async () => {
   try {
@@ -31,24 +36,14 @@ const replaceAllPlaceholders = (template, placeholders, updatedContent) => {
   return result;
 };
 
-export const formatDate = (str) => {
-  return new Date(str).toLocaleDateString("es-AR", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-    timeZone: "America/Argentina/Buenos_Aires",
-  });
-};
-
 (async () => {
   try {
     const data = await getData();
 
     const visitorsCount = data[0]?.visits_count ?? 0;
     const lastVisit = data[0] ?? {};
+    const lastVisit_2 = data[1] ?? {};
+    const lastVisit_3 = data[2] ?? {};
     const allCities = data.map((d) => d.city_name).filter(Boolean);
     const allCountries = data.map((d) => d.country_name).filter(Boolean);
     const allCountriesEmojiFlag = data.map((d) => d.emoji_flag).filter(Boolean);
@@ -76,7 +71,7 @@ export const formatDate = (str) => {
     const countryResult = toSortedArray(countryCounts);
     const countryEmojisResult = toSortedArray(countryEmojisCounts);
     const osResult = toSortedArray(osCounts);
-  
+
     const [templateMD] = await Promise.all([
       fs.readFile("README.md.tpl", { encoding: "utf-8" }),
     ]);
@@ -145,11 +140,23 @@ export const formatDate = (str) => {
       auth: { user: email, pass: process.env.GMAIL_USER_PASSWORD },
     });
 
-    const lastVisitTemp = {
-      city: lastVisit.city_name,
-      country: lastVisit.country_name,
-      createdAt: formatDate(lastVisit.created_at),
-    };
+    const lastVisitTemp = [
+      {
+        city: lastVisit.city_name,
+        country: lastVisit.country_name,
+        createdAt: formatDate(lastVisit.created_at),
+      },
+      {
+        city: lastVisit_2.city_name,
+        country: lastVisit_2.country_name,
+        createdAt: formatDate(lastVisit_2.created_at),
+      },
+      {
+        city: lastVisit_3.city_name,
+        country: lastVisit_3.country_name,
+        createdAt: formatDate(lastVisit_3.created_at),
+      },
+    ];
 
     await transporter.sendMail({
       from: email,

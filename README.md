@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 11 de junio de 2026 a las 06:56:08 p. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 11 de junio de 2026 a las 08:26:07 p. m.</sub>
 
 </div>
 
@@ -18,28 +18,27 @@
 
 ---
 
-<div align="center">
+#### 🏙️ Top Ciudades
+1. **San Luis** — `25` visitas
+2. **Lima** — `10` visitas
+3. **Bogotá** — `7` visitas
+4. **Gallatin** — `4` visitas
+5. **San Salvador** — `3` visitas
 
-| Tipo | Nombre | Cantidad |
-|------|---------|---------:|
-| Ciudad #1 | San Luis | 25 |
-| Ciudad #2 | Lima | 10 |
-| Ciudad #3 | Bogotá | 7 |
-| Ciudad #4 | Gallatin | 4 |
-| Ciudad #5 | San Salvador | 3 |
-| País #1 | 🇦🇷 | 29 |
-| País #2 | 🇲🇽 | 16 |
-| País #3 | 🇨🇴 | 15 |
-| País #4 | 🇵🇪 | 13 |
-| País #5 | 🇨🇴 | 15 |
-| SO habitual | Windows | — |
+#### 🌍 Top Países
+1. **🇦🇷** — `29` visitas
+2. **🇲🇽** — `16` visitas
+3. **🇨🇴** — `15` visitas
+4. **🇵🇪** — `13` visitas
+5. **🇨🇴** — `15` visitas
 
-</div>
+#### 💻 Entorno
+**Sistema Operativo:** Windows
 
 ---
 
 > Última visita desde **Bogotá**, **Bogota**
-> el **11 de junio de 2026 a las 11:39:03 a. m.** · **hace 7 horas**
+> el **11 de junio de 2026 a las 11:39:03 a. m.** · **hace 8 horas**
 
 <div align="center">
 

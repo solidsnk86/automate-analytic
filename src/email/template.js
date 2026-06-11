@@ -227,16 +227,15 @@ export const EmailTemplate = ({
     <div class="wrapper">
       <!-- Header -->
       <div class="header">
-        <p class="header-eyebrow">Portafolio 2026</p>
+        <p class="header-eyebrow">Portafolio ${new Date().getFullYear()}</p>
         <h1>El resumen<br /><em>de visitas</em></h1>
       </div>
 
       <!-- Body -->
       <div class="body">
         <p class="intro">
-          Estadísticas personales del período más
-          reciente. Estos datos reflejan el alcance del portafolio en
-          distintas ubicaciones.
+          Estadísticas personales del período más reciente. Estos datos reflejan
+          el alcance del portafolio en distintas ubicaciones.
         </p>
 
         <!-- Total visitors -->
@@ -249,7 +248,7 @@ export const EmailTemplate = ({
 
         <!-- Cities -->
         <div class="section-gap">
-          <p class="section-title">📍 Ciudades principales</p>
+          <p class="section-title">• Ciudades principales</p>
           <table class="stats">
             <thead>
               <tr>
@@ -290,7 +289,7 @@ export const EmailTemplate = ({
 
         <!-- Countries -->
         <div>
-          <p class="section-title">🌍 Países principales</p>
+          <p class="section-title">• Países principales</p>
           <table class="stats">
             <thead>
               <tr>
@@ -315,12 +314,12 @@ export const EmailTemplate = ({
                 <td class="place">${countries[2].name || "N/A"}</td>
                 <td class="place">${countries[2].count || "N/A"}</td>
               </tr>
-               <tr>
+              <tr>
                 <td class="rank">4</td>
                 <td class="place">${countries[3].name || "N/A"}</td>
                 <td class="place">${countries[3].count || "N/A"}</td>
               </tr>
-               <tr>
+              <tr>
                 <td class="rank">5</td>
                 <td class="place">${countries[4].name || "N/A"}</td>
                 <td class="place">${countries[4].count || "N/A"}</td>
@@ -328,13 +327,40 @@ export const EmailTemplate = ({
             </tbody>
           </table>
         </div>
-        <div class="visitors-hero">
-          <div style="text-align: center; width: 100%">
-            <p class="visitors-label">Última Visita al sitio</p>
-            <p style="font-size: 12px; padding-top: 4px">
-              ${lastVisitTemp.city}, ${lastVisitTemp.country} el
-              ${lastVisitTemp.createdAt}
-            </p>
+        <div class="">
+          <div style="width: 100%">
+            <p class="section-title">• Últimas Visitas al sitio</p>
+            <table class="stats">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Visitas</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="rank">1</td>
+                  <td class="place">
+                    ${lastVisitTemp[0].city}, ${lastVisitTemp[0].country} el
+                    ${lastVisitTemp[0].createdAt}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="rank">2</td>
+                  <td class="place">
+                    ${lastVisitTemp[1].city}, ${lastVisitTemp[1].country} el
+                    ${lastVisitTemp[1].createdAt}
+                  </td>
+                </tr>
+                <tr>
+                  <td class="rank">3</td>
+                  <td class="place">
+                    ${lastVisitTemp[2].city}, ${lastVisitTemp[2].country} el
+                    ${lastVisitTemp[2].createdAt}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -342,7 +368,7 @@ export const EmailTemplate = ({
       <!-- Footer -->
       <div class="footer">
         <p>
-          <strong>Portafolio 2025</strong>
+          <strong>Portafolio ${new Date().getFullYear()}</strong>
           <span class="dot"></span>
           Reporte automático de visitas
           <span class="dot"></span>
