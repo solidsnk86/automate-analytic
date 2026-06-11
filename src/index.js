@@ -7,9 +7,6 @@ import { supabase } from "./supabase/client.js";
 import { timeAgo } from "./utils/timeAgo.js";
 import { formatDate } from "./utils/formatDate.js";
 import { getCountryFromTimeZone } from "./utils/getCountry.js";
-import { loadEnvFile } from "node:process";
-
-loadEnvFile(".env");
 
 const getData = async () => {
   try {
