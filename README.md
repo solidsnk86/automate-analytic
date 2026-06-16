@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 15 de junio de 2026 a las 07:13:10 p. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 16 de junio de 2026 a las 12:31:16 a. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 121
+# 124
 
 </div>
 
@@ -26,7 +26,7 @@
 5. **San Salvador** — `3` visitas
 
 #### 🌍 Top Países
-1. **🇦🇷** — `30` visitas
+1. **🇦🇷** — `32` visitas
 2. **🇲🇽** — `16` visitas
 3. **🇨🇴** — `15` visitas
 4. **🇵🇪** — `13` visitas
@@ -37,8 +37,8 @@
 
 ---
 
-> Última visita desde **Gallatin**, **Estados Unidos**
-> el **15 de junio de 2026 a las 04:13:20 p. m.** · **hace 2 horas**
+> Última visita desde **No disponible**, **Argentina**
+> el **15 de junio de 2026 a las 09:11:37 p. m.** · **hace 3 horas**
 
 <div align="center">
 
