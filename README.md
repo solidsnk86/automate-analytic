@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 23 de junio de 2026 a las 11:36:09 a. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 23 de junio de 2026 a las 02:47:46 p. m.</sub>
 
 </div>
 
@@ -38,7 +38,7 @@
 ---
 
 > Última visita desde ****, ****
-> el **21 de junio de 2026 a las 02:38:40 p. m.** · **ayer**
+> el **21 de junio de 2026 a las 02:38:40 p. m.** · **anteayer**
 
 <div align="center">
 
