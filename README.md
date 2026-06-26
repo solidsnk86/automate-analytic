@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 26 de junio de 2026 a las 07:46:02 a. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 26 de junio de 2026 a las 11:11:24 a. m.</sub>
 
 </div>
 
@@ -12,21 +12,21 @@
 
 ### Visitantes Totales
 
-# 199
+# 203
 
 </div>
 
 ---
 
 #### 🏙️ Top Ciudades
-1. **San Luis** — `70` visitas
+1. **San Luis** — `71` visitas
 2. **Lima** — `10` visitas
-3. **Bogotá** — `7` visitas
-4. **Buenos_Aires** — `6` visitas
+3. **Buenos_Aires** — `7` visitas
+4. **Bogotá** — `7` visitas
 5. **Gallatin** — `5` visitas
 
 #### 🌍 Top Países
-1. **🇦🇷** — `82` visitas
+1. **🇦🇷** — `84` visitas
 2. **🇲🇽** — `16` visitas
 3. **🇨🇴** — `15` visitas
 4. **🇺🇸** — `14` visitas
@@ -37,8 +37,8 @@
 
 ---
 
-> Última visita desde **San Luis**, **Argentina**
-> el **26 de junio de 2026 a las 04:36:55 a. m.** · **hace 3 horas**
+> Última visita desde **El Molar**, **España**
+> el **26 de junio de 2026 a las 09:52:42 a. m.** · **hace 1 hora**
 
 <div align="center">
 
