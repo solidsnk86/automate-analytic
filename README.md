@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 27 de junio de 2026 a las 11:52:37 p. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 28 de junio de 2026 a las 04:45:55 a. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 204
+# 205
 
 </div>
 
@@ -26,7 +26,7 @@
 5. **Gallatin** — `5` visitas
 
 #### 🌍 Top Países
-1. **🇦🇷** — `85` visitas
+1. **🇦🇷** — `86` visitas
 2. **🇲🇽** — `16` visitas
 3. **🇨🇴** — `15` visitas
 4. **🇺🇸** — `14` visitas
@@ -37,8 +37,8 @@
 
 ---
 
-> Última visita desde **San Luis**, **Argentina**
-> el **26 de junio de 2026 a las 08:05:20 p. m.** · **ayer**
+> Última visita desde **Santa Rosa del Conlara**, **Argentina**
+> el **28 de junio de 2026 a las 01:40:29 a. m.** · **hace 3 horas**
 
 <div align="center">
 
