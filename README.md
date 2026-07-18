@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 18 de julio de 2026 a las 10:00:30 a. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 18 de julio de 2026 a las 01:50:19 p. m.</sub>
 
 </div>
 
@@ -38,7 +38,7 @@
 ---
 
 > Última visita desde **Córdoba**, **Argentina**
-> el **16 de julio de 2026 a las 10:09:15 a. m.** · **ayer**
+> el **16 de julio de 2026 a las 10:09:15 a. m.** · **anteayer**
 
 <div align="center">
 
