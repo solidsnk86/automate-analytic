@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 28 de agosto de 2026 a las 12:58:15 a. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 28 de agosto de 2026 a las 01:22:58 p. m.</sub>
 
 </div>
 
@@ -38,7 +38,7 @@
 ---
 
 > Última visita desde **Chicago**, **Estados Unidos**
-> el **26 de agosto de 2026 a las 06:42:50 a. m.** · **ayer**
+> el **26 de agosto de 2026 a las 06:42:50 a. m.** · **anteayer**
 
 <div align="center">
 
