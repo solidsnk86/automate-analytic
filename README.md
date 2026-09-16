@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 16 de septiembre de 2026 a las 05:59:19 a. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 16 de septiembre de 2026 a las 12:56:14 p. m.</sub>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Visitantes Totales
 
-# 473
+# 475
 
 </div>
 
@@ -26,7 +26,7 @@
 5. **Santa Rosa del Conlara** — `12` visitas
 
 #### 🌍 Top Países
-1. **🇦🇷** — `302` visitas
+1. **🇦🇷** — `303` visitas
 2. **🇺🇸** — `55` visitas
 3. **🇲🇽** — `16` visitas
 4. **🇨🇴** — `15` visitas
@@ -37,8 +37,8 @@
 
 ---
 
-> Última visita desde **San Luis**, **Argentina**
-> el **15 de septiembre de 2026 a las 06:38:57 p. m.** · **hace 11 horas**
+> Última visita desde **Rome**, **Italia**
+> el **16 de septiembre de 2026 a las 09:58:20 a. m.** · **hace 2 horas**
 
 <div align="center">
 
