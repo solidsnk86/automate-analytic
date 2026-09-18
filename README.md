@@ -2,7 +2,7 @@
 
 # 📬 Resumen de Visitas
 
-<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 18 de septiembre de 2026 a las 03:47:43 p. m.</sub>
+<sub>PORTAFOLIO 2026 · REPORTE AUTOMÁTICO | README ACTUALIZADO EL · 18 de septiembre de 2026 a las 07:09:38 p. m.</sub>
 
 </div>
 
@@ -12,22 +12,22 @@
 
 ### Visitantes Totales
 
-# 482
+# 485
 
 </div>
 
 ---
 
 #### 🏙️ Top Ciudades
-1. **San Luis** — `234` visitas
-2. **Chicago** — `31` visitas
+1. **San Luis** — `236` visitas
+2. **Chicago** — `32` visitas
 3. **Buenos_Aires** — `31` visitas
 4. **Córdoba** — `16` visitas
 5. **Santa Rosa del Conlara** — `12` visitas
 
 #### 🌍 Top Países
-1. **🇦🇷** — `308` visitas
-2. **🇺🇸** — `57` visitas
+1. **🇦🇷** — `310` visitas
+2. **🇺🇸** — `58` visitas
 3. **🇲🇽** — `16` visitas
 4. **🇨🇴** — `15` visitas
 5. **🇲🇽** — `16` visitas
@@ -38,7 +38,7 @@
 ---
 
 > Última visita desde **San Luis**, **Argentina**
-> el **17 de septiembre de 2026 a las 03:15:14 p. m.** · **ayer**
+> el **18 de septiembre de 2026 a las 04:14:43 p. m.** · **hace 2 horas**
 
 <div align="center">
 
